@@ -1,0 +1,104 @@
+#page-title {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+
+#list-requirements {
+  font-family: 'Asul', sans-serif;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 25px;
+  padding: 0;
+}
+
+#main-doc {
+  margin-left: 220px;
+  position: relative;  
+}
+
+#navbar {
+  text-align: auto;
+  position: fixed;
+  border-right: 1px solid; 
+  margin-left: 50px;
+  margin-right: 0;
+  padding: 0;
+  background-color: grey;
+  color: white;
+}
+
+#Certainty {
+  padding-bottom: 30px;
+}
+
+a:hover {
+  color: white;
+}
+
+header {
+  font-family: 'Asul', sans-serif;
+}
+
+p {
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+}
+
+li {
+  font-family: 'Signika', sans-serif;
+  font-size: 20px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px){
+    #navbar {
+      position: absolute;
+  display: flex;
+  flex-flow: row wrap;    
+  background-color: grey;
+  color: white;
+  margin: -1px;
+  overflow: hidden;
+}
+    
+    #list-requirements {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+    }
+    
+    #main-doc {
+      z-index: -1;
+      margin-top: 290px;
+      width: 100%;
+      text-align: center;
+      margin: 0;
+      padding-top: 290px;
+    }
+    
+}
+
+#Disclaimer {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+code{
+  display: block;
+  background-color: grey;
+  color: white;
+  margin-right: 50px;
+  padding: 10px;
+}
